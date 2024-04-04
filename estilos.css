@@ -1,0 +1,31 @@
+body
+{
+    background-color: indigo;
+}
+
+.input {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 26px;
+    cursor: pointer;
+    display: inline-block;
+    color: cadetblue;
+    background: black;
+    border-radius: 25px;
+    width: 200px;
+    height: 100px;
+}
+img {
+    opacity: 0.5;
+    width: 100px;
+    height: 400px;
+    transition: width 2s,opacity 2s;
+}
+img:hover{
+    width: 200;
+    opacity: 1;
+}
+/* estapropiedad las toma cuando se les pasa el mouse por encima */
+.forms:hover {background-color: aqua;}
+login:hover {background-color: lavenderblush;}
